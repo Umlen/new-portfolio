@@ -1,0 +1,109 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Nunito:wght@200;400;700&display=swap');
+
+:root {
+    --primary-light-color: rgba(248, 247, 255, 1);
+
+    --primary-dark-color: rgba(27, 59, 111, 1);
+    --secondary-dark-color: rgba(21, 28, 40, 1);
+
+    --highlight-color: rgba(221, 4, 38, 1);
+    --low-opacity-highlight-color: rgba(221, 4, 38, .5);
+}
+
+.light-theme {
+    background-color: var(--primary-light-color);
+    color: var(--primary-dark-color);
+}
+
+.dark-theme {
+    background-color: var(--secondary-dark-color);
+    color: var(--primary-light-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1280px) {
+    .container {
+        width: 60%;
+    }
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+/*Animations*/
+
+@keyframes underline-animation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/*Typography*/
+
+.large-header,
+.big-header {
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+@media (min-width: 700px) {
+    .large-header,
+    .big-header {
+        letter-spacing: 1.2px;
+        line-height: 1.2em;
+    }
+    .large-header {
+        font-size: 3.5rem;
+    }
+    .big-header {
+        font-size: 2.5rem;
+    }
+}
+
+.underline-text,
+.underline-animated-text {
+    position: relative;
+}
+
+.underline-text::after,
+.underline-animated-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--low-opacity-highlight-color);
+    height: 5px;
+    width: 100%;
+}
+@media (min-width: 700px) {
+    .underline-animated-text::after {
+        width: 0;
+        animation: underline-animation 1.2s linear;
+        animation-fill-mode: forwards;
+    }
+}

@@ -1,0 +1,21 @@
+<svg id="eOmyjP3VNHG1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&amp;display=swap');
+        </style>
+        <filter id="eOmyjP3VNHG3-filter" x="-150%" width="400%" y="-150%" height="400%">
+            <feGaussianBlur id="eOmyjP3VNHG3-filter-drop-shadow-0-blur" in="SourceAlpha" stdDeviation="1,1"/>
+            <feOffset id="eOmyjP3VNHG3-filter-drop-shadow-0-offset" dx="0" dy="0" result="tmp"/>
+            <feFlood id="eOmyjP3VNHG3-filter-drop-shadow-0-flood" flood-color="rgba(0,0,0,0.25)"/>
+            <feComposite id="eOmyjP3VNHG3-filter-drop-shadow-0-composite" operator="in" in2="tmp"/>
+            <feMerge id="eOmyjP3VNHG3-filter-drop-shadow-0-merge">
+                <feMergeNode id="eOmyjP3VNHG3-filter-drop-shadow-0-merge-node-1"/>
+                <feMergeNode id="eOmyjP3VNHG3-filter-drop-shadow-0-merge-node-2" in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <path d="M10.059744,7.100996l.01,48" transform="translate(-7.908962 0.899004)" fill="none" stroke="#dd0426" stroke-width="2" stroke-dashoffset="1"/>
+    <text dx="0" dy="0" font-family="Kelly Slab" font-size="36" font-weight="400" transform="translate(6.79 46.911964)" filter="url(#eOmyjP3VNHG3-filter)" fill="#1b3b6f" stroke-width="0">
+        <tspan y="0" font-weight="400" stroke-width="0">VP</tspan>
+    </text>
+</svg>
