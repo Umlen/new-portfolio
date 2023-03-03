@@ -56,19 +56,7 @@
 
 .nav-links {
     font-family: 'Kelly Slab', cursive;
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.2rem;
     position: relative;
-}
-@media (min-width: 700px) {
-    .nav-links {
-        font-size: 1.5rem;
-    }
-}
-
-.nav-links:focus {
-    outline: none;
 }
 
 .nav-links:hover::after,

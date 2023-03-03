@@ -16,9 +16,9 @@ function Header(props) {
             >
             </object>
             <nav className='nav-menu'>
-                <Link to='/' className='nav-links'>Home</Link>
-                <Link to='/projects' className='nav-links'>Projects</Link>
-                <Link to='/contacts' className='nav-links'>Contacts</Link>
+                <Link to='/' className='basic-link nav-links'>Home</Link>
+                <Link to='/projects' className='basic-link nav-links'>Projects</Link>
+                <Link to='/contacts' className='basic-link nav-links'>Contacts</Link>
             </nav>
             <img 
                 alt='' 

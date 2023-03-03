@@ -6,7 +6,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/todo-app',
         demo: 'https://todo-app-tau-livid.vercel.app/',
         img: '../images/projects/todo-app.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/tip-calculator-app',
         demo: 'https://tip-calculator-app-orpin.vercel.app/',
         img: '/images/projects/tip-calculator-app.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/solo-project-password-generator',
         demo: 'https://euphonious-creponne-ac6f32.netlify.app/',
         img: '/images/projects/password-generator.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 JavaScript'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/solo-project-unit-converter',
         demo: 'https://rainbow-squirrel-0aa10b.netlify.app/',
         img: '/images/projects/unit-converter.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 JavaScript'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/restaurant-ordering-app-solo-project',
         demo: 'https://astounding-melba-d6c85a.netlify.app/',
         img: '/images/projects/restaurant-ordering-app.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/solo-project-color-scheme-generator',
         demo: 'https://stupendous-lily-197b40.netlify.app/',
         img: '/images/projects/color-scheme-generator.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript API'
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/e-commerce-product-page',
         demo: 'https://shimmering-basbousa-a66257.netlify.app/',
         img: '/images/projects/e-commerce-page.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript'
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/travel-journal-solo-project',
         demo: 'https://profound-eclair-3df2ee.netlify.app/',
         img: '/images/projects/travel-journal.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 ReactJS'
     },  
     {
         id: 9,
@@ -78,7 +78,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/solo-project-movie-watchlist',
         demo: 'https://dulcet-kitsune-4568ad.netlify.app/',
         img: '/images/projects/movie-watchlist.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript API'
     },  
     {
         id: 10,
@@ -87,7 +87,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/photosnap-multi-page-website',
         demo: 'https://chimerical-narwhal-04b2a7.netlify.app/',
         img: '/images/projects/photosnap-multi-page-website.png',
-        madeWith: 'HTML'
+        madeWith: 'HTML5 CSS3 SCSS JavaScript'
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ const projectsData = [
         code: 'https://github.com/Umlen/quizzical-app-solo-project',
         demo: 'https://lovely-unicorn-4b8be9.netlify.app/',
         img: '/images/projects/quizzical-app.png',
-        madeWith: 'HTML CSS'
+        madeWith: 'HTML5 CSS3 ReactJS JavaScript API'
     },
 ];
 

@@ -1,7 +1,12 @@
 import projectsData from '../projects-data';
 import ProjectPreview from '../components/ProjectPreview';
+import { useEffect } from 'react';
 
 function Projects() {
+    useEffect( () => {
+        document.documentElement.scrollTo(0, 0); 
+    });
+    
     const projects = projectsData.slice(0).reverse().map(project => {
         return (
             <ProjectPreview
@@ -19,7 +24,7 @@ function Projects() {
     return (
         <main className='main-content'>
             <h1 className='large-header'>
-                <span className='underline-text'>Projects</span>
+                <span className='underline-animated-text'>Projects</span>
             </h1>
             {projects}
         </main>

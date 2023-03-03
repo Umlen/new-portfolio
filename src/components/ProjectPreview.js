@@ -1,8 +1,8 @@
 import '../style/project-preveiw.css';
 
 function ProjectPreview(props) {
-    const madeWith = props.projectMadeWith.split(' ').map( tech => (
-        <li className='underline-text project-tech-list-item'>{tech}</li> 
+    const madeWith = props.projectMadeWith.split(' ').map( (tech, key) => (
+        <li key={key} className='underline-text project-tech-list-item'>{tech}</li> 
     ));
 
     return (
@@ -12,8 +12,8 @@ function ProjectPreview(props) {
                 <h3 className='mid-header project-title'>{props.projectName}</h3>
                 <p className='project-desrc'>{props.projectDescr}</p>
                 <ul className='project-tech-list'>{madeWith}</ul>
-                <a href={props.projectCode} className='project-btns'>Code</a>
-                <a href={props.projectDemo} className='project-btns'>Live</a>
+                <a href={props.projectCode} className='basic-btn hover-low-opacity project-btns'>Code</a>
+                <a href={props.projectDemo} className='basic-btn hover-low-opacity project-btns'>Live</a>
             </div>
         </div>
     );

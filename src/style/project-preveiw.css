@@ -44,8 +44,9 @@
 .project-tech-list {
     margin: 0 0 2em 0;
     padding: 0;
-    display: flex;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -57,16 +58,4 @@
     display: inline-block;
     padding: .5em 2em;
     margin: 0 1.5em 1em 0;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: var(--projects-btns-bg);
-    color: var(--projects-btns-text);
-    box-shadow: 0 0 5px 1px var(--low-opacity-shadow-color);
-}
-
-.project-btns:hover,
-.project-btns:active {
-    transform: scale(1.05);
-    opacity: .75;
-    transition: .2s linear;
 }

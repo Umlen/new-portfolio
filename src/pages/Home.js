@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+import '../style/home.css';
 import projectsData from '../projects-data';
 import ProjectPreview from '../components/ProjectPreview';
 
 function Home() {
-    const projects = projectsData.slice(-3).map(project => {
+    const projects = projectsData.slice(-3).reverse().map(project => {
         return (
             <ProjectPreview
                 key = {project.id}
@@ -22,14 +24,25 @@ function Home() {
             <h2 className='big-header'>
                 I'm a Jr. <span className='underline-animated-text'>Frontend Developer</span>
             </h2>
-            <section>
+            <section className='home-section'>
                 {/*Small about section*/}
             </section>
-            <section>
+            <section className='home-section'>
                 <h2 className='big-header'>
                     <span className='underline-text'>Latest Projects</span>
                 </h2>
                 {projects}
+                <Link to='/projects' className='basic-btn all-projects-btn hover-low-opacity'>
+                    View all projects
+                </Link>
+            </section>
+            <section className='home-section email-section'>
+                <h2 className='mid-header'>
+                    <span className='underline-text'>Email me</span>
+                </h2>
+                <a className='basic-link hover-low-opacity' href='mailto:victorpatrin@gmail.com'>
+                    victorpatrin@gmail.com
+                </a>
             </section>
         </main>
     );
