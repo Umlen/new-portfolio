@@ -7,6 +7,27 @@
     }
 }
 
+.about-section {
+    padding-top: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-list-item {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
+
+.about-list-item .underline-text::after {
+    height: 2px;
+}
+
 .all-projects-btn {
     display: block;
     width: 150px;

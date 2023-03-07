@@ -6,12 +6,12 @@ function Projects() {
     useEffect( () => {
         document.documentElement.scrollTo(0, 0); 
     });
-    
+
     const projects = projectsData.slice(0).reverse().map(project => {
         return (
             <ProjectPreview
                 key = {project.id}
-                projectImg = {project.img}
+                projectImg = {window.innerWidth < 700 ? project.mobileImg : project.desktopImg}
                 projectName = {project.name}
                 projectDescr = {project.descr}
                 projectCode = {project.code}

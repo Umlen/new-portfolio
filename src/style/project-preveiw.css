@@ -8,6 +8,7 @@
 @media (min-width: 700px) {
     .project-contaier {
         flex-direction: row;
+        align-items: center;
         margin-bottom: 4em;
         box-shadow: 0 0 10px 5px var(--low-opacity-shadow-color);
     }
@@ -17,10 +18,12 @@
     max-width: 100%;
     height: auto;
     border-radius: 5px 5px 0 0;
+    object-fit: cover;
 }
 @media (min-width: 700px) {
     .project-img {
         border-radius: 5px 0 0 5px;
+        max-width: 40%;
     }
 }
 
@@ -39,6 +42,7 @@
 
 .project-desrc {
     margin-bottom: 2em;
+    line-height: 1.5em;
 }
 
 .project-tech-list {

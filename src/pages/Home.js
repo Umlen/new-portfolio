@@ -8,7 +8,7 @@ function Home() {
         return (
             <ProjectPreview
                 key = {project.id}
-                projectImg = {project.img}
+                projectImg = {window.innerWidth < 700 ? project.mobileImg : project.desktopImg}
                 projectName = {project.name}
                 projectDescr = {project.descr}
                 projectCode = {project.code}
@@ -24,8 +24,16 @@ function Home() {
             <h2 className='big-header'>
                 I'm a Jr. <span className='underline-animated-text'>Frontend Developer</span>
             </h2>
-            <section className='home-section'>
-                {/*Small about section*/}
+            <section className='home-section about-section'>
+                <h3>I really enjoy making simple and beautiful things for users' convenience.</h3>
+                <ul className='about-list'>
+                    <li className='about-list-item'>
+                        <span className='underline-text'>Skills:</span> html, css, scss, JavaScript, React, git.
+                    </li>
+                    <li className='about-list-item'>
+                        <span className='underline-text'>Interests:</span> English learning, reading, cooking, board games, video games. 
+                    </li>
+                </ul>
             </section>
             <section className='home-section'>
                 <h2 className='big-header'>

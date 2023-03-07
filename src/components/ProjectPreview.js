@@ -12,8 +12,8 @@ function ProjectPreview(props) {
                 <h3 className='mid-header project-title'>{props.projectName}</h3>
                 <p className='project-desrc'>{props.projectDescr}</p>
                 <ul className='project-tech-list'>{madeWith}</ul>
-                <a href={props.projectCode} className='basic-btn hover-low-opacity project-btns'>Code</a>
-                <a href={props.projectDemo} className='basic-btn hover-low-opacity project-btns'>Live</a>
+                <a href={props.projectCode} target='_blank' className='basic-btn hover-low-opacity project-btns'>Code</a>
+                <a href={props.projectDemo} target='_blank' className='basic-btn hover-low-opacity project-btns'>Live</a>
             </div>
         </div>
     );
